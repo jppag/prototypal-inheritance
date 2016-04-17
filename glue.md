@@ -24,6 +24,8 @@
 	
 	* cria um novo objeto;
 	* seta a propriedade constructor do objeto ao (mostrar exemplo) Vehicle. bmw.constructor == Vehicle vai dar true. bmw vai ser uma instancia de Vehicle
+	* delega ao objeto criado o Vehicle.prototype
+	* chama o Vehicle() no contexto do novo objeto
 
 - Setando uma propriedade ao .prototype do construtor, todas as instancias (bmw), terão essa propriedade em seu prototype. 
 
